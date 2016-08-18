@@ -1,0 +1,17 @@
+<div class="panel panel-primary" ng-app="showCont" ng-controller="showContCtrl">
+    <div class="panel-heading">
+        <div class="panel-title">{{lists.title}}</div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                {{lists.content}}
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-10 col-md-2">
+                    <a ui-sref="list({type:0})" class="btn btn-primary">返回</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
